@@ -1,0 +1,134 @@
+/* .nav-container{
+    height: 80px;
+}
+
+.nav-container ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.li{
+    margin: 25px;
+}
+
+.tweet-container{
+    display: flex;
+}
+
+.tweet-container .left-container img{
+    width: 80px;
+    border-radius: 100px;
+}
+
+.tweet-container .bottom-container ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 100px;
+} */
+
+.nav-container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    align-items: center;
+}
+
+.nav-container ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-container .left-container li{
+    margin-left: 30px;
+    color: #696969;
+}
+
+.nav-container .right-container li{
+    margin-left: 10px;
+}
+
+.nav-container .right-container{
+    display: flex;
+    align-items: center;
+}
+
+.nav-container .right-container .inner-left-container input{
+    background-color: #f9f9f9;
+    border-radius: 100px;
+    border: 1px solid #696969;
+}
+
+.nav-container .right-container .inner-left-container i{
+    color: #696969;
+}
+
+.nav-container .right-container .inner-right-container button{
+    border-radius: 100px;
+    width: 100px;
+    height: 30px;
+    background-color: #62B6DF;
+    border: 0;
+    color: white;
+}
+
+.nav-container .right-container .inner-right-container img{
+    height: 30px;
+    border-radius: 100px;
+
+}
+
+.banner{
+    display: flex;
+    height: 200px;
+    background-color: #62B6DF;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-container{
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-container .inner-left-container img{
+    height: 150px;
+    border-radius: 100px;
+    border: 2px solid white;
+    margin-top: -30px;
+}
+
+.bottom-container .inner-middle-container ul{
+    display: flex;
+    list-style-type: none;
+    color: #696969;
+    margin-left: -80px;
+    margin-right: 500px;
+}
+
+.bottom-container .inner-middle-container li{
+    margin: 10px;
+}
+
+.bottom-container .inner-right-container ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.bottom-container .inner-right-container li{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    color: #eaeaea;
+}
+
+.bottom-container .inner-right-container button{
+    border-radius: 100px;
+    width: 100px;
+    height: 30px;
+    background-color: #eaeaea;
+    border: 1px solid #62B6DF;
+    color: #62B6DF;
+}

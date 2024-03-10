@@ -1,0 +1,69 @@
+/* .container{
+    display: flex;
+    border:2px solid black;
+   align-items: center;
+   flex-direction: row;
+    height:500px;
+    width:800px;
+    flex-wrap: wrap;
+}
+
+.container .box{
+    height:80px;
+    width:80px;
+    border:1px solid black;
+}
+
+.container .box:nth-child(1){
+    order:2;
+}
+.container .box:nth-child(2){
+    order:1;
+}
+.container .box:nth-child(3){
+    order:3;
+} */
+
+.movie-container{
+    height:200px;
+    border:1px solid black;
+}
+.movie-container ul{
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    flex-wrap:wrap ;
+}
+
+.movie-container ul li:nth-child(1){
+    order:5
+}
+.movie-container ul line:nth-child(2){
+    order:3
+}
+.movie-container ul li:nth-child(3){
+    order:2
+}
+.movie-container ul li:nth-child(4){
+    order:4
+}
+.movie-container ul li:nth-child(4){
+    order:1
+}
+
+
+/* Cellphone */
+/* Iphone4 */
+/* Iphone5 */
+/* Iphone6 */
+/* Iphone7 */
+
+/* tablets */
+
+
+
+@media screen and (min-width:100px) and (max-width:200px) {
+    .movie-container{
+        background-color: blue;
+    }
+}
