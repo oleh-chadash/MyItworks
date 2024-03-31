@@ -1,0 +1,53 @@
+/* Общие стили */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif; /* Или любой другой шрифт по вашему выбору */
+    display: flex; /* Использование Flexbox для размещения основных контейнеров */
+}
+
+/* Стилизация панели инструментов */
+.panel {
+    display: flex; /* Используем Flexbox для горизонтального расположения элементов */
+    width: 20%; /* Панель инструментов занимает 1/5 часть экрана */
+    background-color: #444444; /* Светло-серый фон для панели */
+    flex-direction: column; /* Располагаем инструменты вертикально */
+    align-items: center; /* Выравниваем инструменты по центру по горизонтали */
+    justify-content: flex-start; /* Инструменты начинаются с верхней части панели */
+}
+
+.tool-list li{
+    list-style-type: none;
+}
+
+
+.tool-list img{
+    border: 1px solid #FAFAFA;
+    margin-top: 30px;
+
+}
+
+.inventory {
+    color: #FAFAFA;
+    margin-top: 50px;
+
+}
+
+.reset-game {
+    margin-top: 100px;   
+}
+
+
+/* Стилизация мира */
+.world {
+    flex-grow: 1; /* Мир занимает оставшееся пространство */
+    background-color: #FAFAFA; /* Светлый фон для мира */
+}
+
+
+.last_block {
+    width: 50px; /* Ширина окошка для последнего блока */
+    height: 50px; /* Высота окошка для последнего блока */
+} 
